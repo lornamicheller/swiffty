@@ -1,0 +1,70 @@
+.foto{
+    border: solid rgb(192, 189, 189) 1px;
+    border-radius: 5px;
+    margin: 30px;
+    height: 200px;
+    margin-top: 0px;
+}
+
+.title-add{
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-icon{
+    height: 100px;
+    margin-top: 20px;
+    --background: transparent;
+    --background-activated: transparent;
+}
+
+.notas{
+    border: solid rgb(192, 189, 189) 1px;
+    border-radius: 5px;
+    margin: 30px;
+    height: 100px;
+}
+
+.input-notas{
+    font-size: 12px;
+    --padding-start: 10px;
+}
+
+.title-total{
+    font-size: 15px;
+    margin: 0px;
+}
+
+.total{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.precio{
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.button-cancel{
+    --background: rgb(214, 213, 213);
+    --background-activated: rgb(214, 213, 213);
+}
+
+.button-accept{
+    --background: #ff931e;
+    --background-activated: #ff931e;
+
+}
+
+.car-icon{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+}

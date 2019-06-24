@@ -1,0 +1,64 @@
+.header{
+    --background: rgb(248, 248, 248);
+    height: 120px;
+  }
+
+.icon{
+ height: 100px;
+ width: 100px;
+ position: absolute;
+ margin-top: -20px;
+}
+
+.content{
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+.title-vehicle{
+    font-size: 15px;
+    position: absolute;
+    margin-top: 30px;
+    --background:#ff931e;
+    --color: white;
+    --box-shadow: none;
+    --background-activated: #ff931e;
+}
+  
+  .logo{
+    height: 70px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .card{
+    height: 150px;
+    display: block;
+  }
+
+.title{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right:0;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.boton{
+    --background: transparent;
+    --background-activated: transparent;
+    height: 150px;
+    width: 140px;
+    --box-shadow: none;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

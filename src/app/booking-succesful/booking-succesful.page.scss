@@ -1,0 +1,39 @@
+.div{
+    margin-top: 100px;
+}
+.logo{
+    height: 60%;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-success{
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.paragraph{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 20px;
+    color: rgb(153, 153, 153);
+    text-align: center;
+}
+
+.listo{
+    --background: #ff931e;
+    --background-activated: #ff931e;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-bottom: 30px;
+}

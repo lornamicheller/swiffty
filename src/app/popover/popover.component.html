@@ -1,0 +1,45 @@
+<div *ngIf="service == 'car'">
+    <ion-img class="car-icon"  src="assets/caricon.png"></ion-img>
+  </div>
+
+  <div *ngIf="service == 'suv'">
+      <ion-img class="car-icon"  src="assets/iconsuv.png"></ion-img>
+    </div>
+
+    <div *ngIf="service == 'van'">
+        <ion-img class="car-icon"  src="assets/iconvan.png"></ion-img>
+      </div>
+
+      <div *ngIf="service == 'pickup'">
+          <ion-img class="car-icon"  src="assets/pickupicon.png"></ion-img>
+        </div>
+
+<div class="foto">
+    <ion-button (click)=cameraOpen()  class="photo-icon" ><ion-img class="photo-icon"  src="assets/photo-camera.png"></ion-img></ion-button>
+  <h6 class="title-add">
+    Añade una foto de tu paquete
+  </h6>
+</div>
+
+<div class="notas">
+    <ion-textarea class='input-notas' placeholder="NOTAS"></ion-textarea>
+</div>
+
+<ion-grid class="precio">
+  <ion-row>
+    <ion-col size="8">
+        <p class="title-total">Tiene un costo total de: </p> 
+    </ion-col>
+    <ion-col size="4">
+        <p class="total">$90.00</p>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-button (click)=closePop() class="button-cancel">CANCELAR</ion-button>
+    </ion-col>
+    <ion-col>
+        <ion-button (click)=navigate() class="button-accept">SOLICITAR</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>

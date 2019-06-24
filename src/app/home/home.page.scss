@@ -1,0 +1,74 @@
+.header{
+  --background: rgb(248, 248, 248);
+  height: 120px;
+}
+
+.logo{
+  height: 70px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.mainMenu{
+  position: absolute;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  bottom: 0;
+  background-color: white;
+  z-index: 1000;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.title{
+  text-align: center;
+  font-weight: 300;
+  margin: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 0px;
+}
+
+.input{
+  left:0;
+  right:0;
+  margin: 20px;
+  border: solid 1px rgb(209, 207, 207);
+  border-radius: 5px;
+  width: 250px;
+  margin-left: 30px;
+  --padding-start: 5px;
+}
+
+.locationIcon{
+  width: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: inline-flex;
+}
+
+.submit{
+  width: 200px;
+  margin-bottom: 50px;
+  --background: transparent;
+  --color: rgb(49, 138, 223);
+  border-radius: 1px;
+  border: solid 1px rgb(241, 237, 237);
+ left: 0;
+ right: 0;
+ margin-left: auto;
+ margin-right: auto;
+  font-size: 20px;
+  --background-activated: rgb(241, 237, 237);
+}
+
+.grid{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 140px;
+}

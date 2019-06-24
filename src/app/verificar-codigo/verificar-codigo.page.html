@@ -1,0 +1,26 @@
+<div class=fondo>
+
+  <ion-button class="btnBack" (click)=  navigateback()>
+    <ion-icon name="ios-arrow-back"></ion-icon>
+  </ion-button>
+
+<img class=logo src= "assets/logo-con-nombre.png">
+
+</div>
+
+<div class=codigo>
+    
+    <div id="form">
+        <ion-input id="one" type="text" class="verification-code" placeholder="&bull;" maxLength="1" size="1" min="0" max="9"
+         (onkeyup)="add(this)"></ion-input>
+        <ion-input id="two" type="text" class="verification-code" placeholder="&bull;" maxLength="1" size="1" min="0" max=“9”
+        (onkeyup)="add(this)"></ion-input>
+        <ion-input id="three" type=“text” class="verification-code" placeholder="&bull;" maxLength="1" size="1" min="0" max=“9”
+        (onkeyup)="add(this)"></ion-input>
+        <ion-input id="four" type=“text” class="verification-code" placeholder="&bull;" maxLength="1" size="1" min="0" max=“9”
+        (onkeyup)="add(this)"></ion-input>
+      </div>
+    <div class="boton">
+      <ion-button class="verificar" expand="block" (click)= navigateFoward()>Verificar</ion-button>
+    </div>
+</div>

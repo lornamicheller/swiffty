@@ -1,0 +1,81 @@
+<ion-header no-border>
+  <ion-toolbar>
+      <ion-img class="logo"  src="assets/delivery.png"></ion-img>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-slides class= "slide" pager="true" [options] = "slideOpts">
+
+    <ion-slide height = 500px >
+      <ion-card class= "card">
+
+         <div class="div"> <ion-img  src="assets/LOCATION DESTINATION.png"></ion-img></div>
+          <ion-card-subtitle> <br>
+           <h2>Desde punto A hasta punto B</h2>
+          </ion-card-subtitle> <br>
+
+           <p>Díganos donde desea que recojamos su paquete y dónde quiere que lo entreguemos.</p> 
+             
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+        <ion-card class= "card">
+        
+            <div class="div"> <ion-img class=slide src="assets/SELECT VEHICLES.png"></ion-img></div>
+            <ion-card-subtitle> <br>
+             <h3>Selecciona el tipo de vehiculo</h3>
+            </ion-card-subtitle> <br>
+  
+             <p>Elija el tipo de vehículo para llevar su paquete a su destino final.</p> 
+               
+            
+        </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+        <ion-card class= "card">
+        
+            <div class="div"> <ion-img class=slide-3-4 src="assets/payment.png"></ion-img></div>
+            <ion-card-subtitle> <br>
+             <h3>Paga por tu orden en línea</h3>
+            </ion-card-subtitle> <br>
+  
+             <p>Paga completamente seguro por la aplicación y usa tarjeta de crédito de tu preferencia.</p>             
+            
+        </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card class= "card">
+      
+          <div class="div"> <ion-img class=slide-3-4 src="assets/order complete.png"></ion-img></div>
+          <ion-card-subtitle> <br>
+           <h3>Lo buscamos</h3>
+          </ion-card-subtitle> <br>
+
+           <p>No hagas nada! Nosotros buscamos y te llevamos tu paquete.</p>             
+           <ion-button class="boton-comenzar" fill=solid margin=20px expand="block" (click)=changePage()> COMENZAR </ion-button>
+      </ion-card>
+  </ion-slide>
+
+    <!-- <ion-slide>
+        <ion-card class= "card">
+        
+            <div class="div"><ion-img style="height: 300px" class= slide position="center"  src="assets/recibo.png"></ion-img></div>
+            <ion-card-subtitle> <br>
+             <h2>¡Tu pedido va en camino!</h2>
+            </ion-card-subtitle> <br>
+  
+             <p>Una vez terminado el servicio podrás evaluar el servicio brindado.</p> 
+                -->
+               <!-- boton para comenzar y que lleva a prox pagina -->
+            <!-- <ion-button class="boton-comenzar" fill=solid margin=20px expand="block" (click)=changePage()> COMENZAR </ion-button>
+        </ion-card>
+    </ion-slide> -->
+
+  </ion-slides>
+
+</ion-content>

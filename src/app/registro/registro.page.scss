@@ -1,0 +1,67 @@
+.logo{
+    margin-top: 30px;
+    height: 130px;
+}
+
+.header{
+    height: 100px;
+    box-shadow: transparent;
+
+}
+
+.cardContainer{
+    position: absolute;
+     left:0;
+     right:0;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 150px;
+    
+}
+
+.card{
+    
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid rgb(189, 188, 188);
+    margin-left: 0px;
+    margin-right: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+}
+
+.input{
+        
+    border-bottom: 1px solid rgb(218,218,218);
+    --padding-start: 5px;
+    
+}
+
+.flag-img {
+    margin-right: 3px;
+    margin-left: 10px;
+    width: 30px;
+    height: 25px;
+}
+
+.btnToggle {
+    padding: 10px;
+    font-size: 13px;
+    --background-activated: #2eabe2;
+    --background-checked: #2eabe2;
+    --border-color: #2eabe2;
+    --color: #2eabe2;
+    --border-top: 0px;
+    --border-radius: 1px;
+}
+
+.boton-iniciar{
+     --background: #2eabe2;
+     width: 200px;
+     left:0;
+     right:0;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10px;
+}

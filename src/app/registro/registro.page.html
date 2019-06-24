@@ -1,0 +1,39 @@
+
+<ion-header no-border class="header">
+    <ion-img class="logo"  src="assets/logo-con-nombre.png"></ion-img>
+</ion-header>
+
+<div class=cardContainer>
+
+    <ion-card class=card>
+        <ion-segment padding>
+
+            <ion-segment-button (click)="changeRegistro(false)" class=btnToggle> Registrarme</ion-segment-button>
+            <ion-segment-button (click)="changeRegistro(true)" class=btnToggle> Iniciar</ion-segment-button>
+           
+        </ion-segment>
+    
+              
+
+        <div padding *ngIf="registro">
+
+            <ion-input class=input type="text" placeholder="Correo electrónico"></ion-input>
+            <br>
+               <!-- input del password -->
+            <ion-input type="password" class=input placeholder="Contraseña"></ion-input>
+            <br>
+            <ion-button class="boton-iniciar" (click)="signIn()" margin=20px expand="block"> INICIAR </ion-button>
+            <!-- BOTON DE INICIAR -->
+        </div>
+
+        <div padding *ngIf="!registro">
+            <ion-input class=input type="text" placeholder="Nombre"></ion-input>
+            <br>
+            <ion-input class=input type="text" placeholder="Correo electrónico"></ion-input>
+            <br>
+            <ion-input class=input type="number" placeholder="Número de celular"><img class=flag-img src="assets/puertorico.png"></ion-input>
+            <br>
+            <ion-button class="boton-iniciar" margin=20px expand="block" (click)=signUp()> REGISTRARME </ion-button>
+        </div>
+    </ion-card>
+</div>

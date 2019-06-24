@@ -1,0 +1,85 @@
+
+    <div class="my-overlay" padding [hidden]="overlayHidden"></div>
+
+    <ion-button class="btnBack" (click)= navigateBack()>
+        <ion-icon name="ios-arrow-back"></ion-icon>
+    </ion-button>
+
+    <ion-card class="servicio">
+  
+        <div *ngIf="service == 'car'">
+          <ion-img class="car-icon"  src="assets/caricon.png"></ion-img>
+          <p class="subtitle">CAR</p>
+        </div>
+      
+        <div *ngIf="service == 'suv'">
+            <ion-img class="car-icon"  src="assets/iconsuv.png"></ion-img>
+            <p class="subtitle">SUV</p>
+          </div>
+      
+          <div *ngIf="service == 'van'">
+              <ion-img class="car-icon"  src="assets/iconvan.png"></ion-img>
+              <p class="subtitle">VAN</p>
+            </div>
+      
+            <div *ngIf="service == 'pickup'">
+                <ion-img class="car-icon"  src="assets/pickupicon.png"></ion-img>
+                <p class="subtitle">PICKUP</p>
+              </div>
+      
+          <ion-grid>
+            <ion-row>
+              <ion-col size="6">
+                <p class="title">DISTANCE</p>
+                <p class="data">DISTANCIA</p>
+              </ion-col>
+              <ion-col size="6">
+                  <p class="title">PRICE</p>
+                  <p class="data">PRECIO</p>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+          <ion-button (click)=servicio() expand=block class="boton-solicitar">SOLICITAR</ion-button>
+      </ion-card>
+    
+<!-- Map view -->
+
+<ion-header no-border>
+  
+    <meta charset='utf-8'/>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <div class="map" id='mapservice' ></div>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+  
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+  
+  </ion-header>
+  
+    <!-- <ion-content class="map">
+        <div id='mapservice'></div>
+        
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoianJvc2FyaW8yNDEiLCJhIjoiY2pzdXF6NmJiMmgzNzQ5cnJkMjFsa285NSJ9.a6Z7HjeR6q74TBxQhXPy5A';
+            const mapservice = new mapboxgl.Map({
+                container: 'mapservice',
+                style: 'mapbox://styles/jrosario241/cjuig906f01bo1fnr4649i94a',
+                center: [-66.5901489, 18.2208328],
+            });
+        
+        </script>
+      </ion-content> -->
+
+   
